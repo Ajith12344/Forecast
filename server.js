@@ -13,7 +13,7 @@ app.get("/", async (req, res) => {
   
       // Read your HTML file
       const fs = require("fs");
-      const html = fs.readFileSync("home.html", "utf-8");
+      const html = fs.readFileSync("index.html", "utf-8");
   
       // Replace placeholders in your HTML template with weather data
       const modifiedHtml = html
